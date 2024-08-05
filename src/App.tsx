@@ -8,12 +8,12 @@ function App() {
       <header className="App-header">
         <title>Yacht!</title>
 
-        <div class="content-wrapper">
+        <div className="content-wrapper">
           <div id="logo">Yacht!!</div>
 
-          <div class="game-box">
+          <div className="game-box">
 
-            <table class="scoreboard">
+            <table className="scoreboard">
               <thead>
               <tr>
                 <th>Categories</th>
@@ -102,7 +102,7 @@ function App() {
               </tfoot>
             </table>
 
-            <canvas class="yachtCanvas"></canvas>
+            <canvas className="yachtCanvas"></canvas>
 
           </div>
         </div>
